@@ -2,13 +2,13 @@ package javaprac;
 
 public class ListNode {
     int val;
-    ListNode next;
+    ListNodeData next;
     ListNode() {}
     ListNode(int val) { this.val = val; }
-    ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+    ListNode(int val, ListNodeData next) { this.val = val; this.next = next; }
     public void push(int new_data)
     {
-        ListNode new_node = new ListNode(new_data);
+        ListNodeData new_node = new ListNodeData(new_data);
         new_node.next = next;
         next = new_node;
     }

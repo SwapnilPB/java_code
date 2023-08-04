@@ -1,6 +1,4 @@
-package com.swap;
-
-import java.util.Arrays;
+package javaprac;
 
 public class AddionArray {
 

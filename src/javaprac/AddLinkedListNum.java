@@ -1,29 +1,29 @@
-package com.swap;
+package javaprac;
 
 public class AddLinkedListNum {
-    public ListNode addTwoNums(ListNode l1, ListNode l2){
+    public ListNodeData addTwoNums(ListNodeData l1, ListNodeData l2){
 
         return l1;
     }
 
     public static void main(String[] args) {
-        ListNode ls = new AddLinkedListNum().addTwoNums(new ListNode(3), new ListNode(2));
+        ListNodeData ls = new AddLinkedListNum().addTwoNums(new ListNodeData(3), new ListNodeData(2));
     }
 }
 
 
-class ListNode {
+class ListNodeData {
     int val;
-    ListNode next;
+    ListNodeData next;
 
-    ListNode() {
+    ListNodeData() {
     }
 
-    ListNode(int val) {
+    ListNodeData(int val) {
         this.val = val;
     }
 
-    ListNode(int val, ListNode next) {
+    ListNodeData(int val, ListNodeData next) {
         this.val = val;
         this.next = next;
     }
